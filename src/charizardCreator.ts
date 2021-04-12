@@ -2,6 +2,9 @@ import {FactoryPokemon} from './factory';
 import {Pokemon} from './pokemon';
 import {Charizard} from './charizard';
 
+/**
+ * Clase CharizardCreator que creará el objeto charizard
+ */
 export class CharizardCreator extends FactoryPokemon {
   constructor(public nombre: string,
     public altura: number,

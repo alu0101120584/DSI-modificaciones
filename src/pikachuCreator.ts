@@ -2,6 +2,9 @@ import {FactoryPokemon} from './factory';
 import {Pokemon} from './pokemon';
 import {Pikachu} from './pikachu';
 
+/**
+ * Clase PikachuCreator que creará el objeto pikachu
+ */
 export class PikachuCreator extends FactoryPokemon {
   constructor(public nombre: string,
     public altura: number,

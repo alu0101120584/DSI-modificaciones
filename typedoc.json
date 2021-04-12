@@ -1,6 +1,11 @@
 {
   "entryPoints": [
-    "./src/index.ts"
+    "./src/pokemon.ts",
+    "./src/charizard.ts",
+    "./src/pikachu.ts",
+    "./src/pikachuCreator.ts",
+    "./src/charizardCreator.ts",
+    "./src/factory.ts"
   ],
   "out": "./docs"
 }
